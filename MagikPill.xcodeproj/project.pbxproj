@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE365BA51F09782400ACEABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE365BA41F09782400ACEABD /* AppDelegate.swift */; };
+		BE365BA71F09782400ACEABD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE365BA61F09782400ACEABD /* ViewController.swift */; };
+		BE365BAA1F09782400ACEABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE365BA81F09782400ACEABD /* Main.storyboard */; };
+		BE365BAC1F09782400ACEABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE365BAB1F09782400ACEABD /* Assets.xcassets */; };
+		BE365BAF1F09782400ACEABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE365BAD1F09782400ACEABD /* LaunchScreen.storyboard */; };
+		BE365BBA1F09782400ACEABD /* MagikPillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE365BB91F09782400ACEABD /* MagikPillTests.swift */; };
+		BE365BC51F09782400ACEABD /* MagikPillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE365BC41F09782400ACEABD /* MagikPillUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE365BB61F09782400ACEABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE365B991F09782400ACEABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE365BA01F09782400ACEABD;
+			remoteInfo = MagikPill;
+		};
+		BE365BC11F09782400ACEABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE365B991F09782400ACEABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE365BA01F09782400ACEABD;
+			remoteInfo = MagikPill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE365BA11F09782400ACEABD /* MagikPill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagikPill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE365BA41F09782400ACEABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE365BA61F09782400ACEABD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE365BA91F09782400ACEABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE365BAB1F09782400ACEABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE365BAE1F09782400ACEABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE365BB01F09782400ACEABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE365BB51F09782400ACEABD /* MagikPillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagikPillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE365BB91F09782400ACEABD /* MagikPillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagikPillTests.swift; sourceTree = "<group>"; };
+		BE365BBB1F09782400ACEABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE365BC01F09782400ACEABD /* MagikPillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagikPillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE365BC41F09782400ACEABD /* MagikPillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagikPillUITests.swift; sourceTree = "<group>"; };
+		BE365BC61F09782400ACEABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE365B9E1F09782400ACEABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE365BB21F09782400ACEABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE365BBD1F09782400ACEABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE365B981F09782400ACEABD = {
+			isa = PBXGroup;
+			children = (
+				BE365BA31F09782400ACEABD /* MagikPill */,
+				BE365BB81F09782400ACEABD /* MagikPillTests */,
+				BE365BC31F09782400ACEABD /* MagikPillUITests */,
+				BE365BA21F09782400ACEABD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE365BA21F09782400ACEABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE365BA11F09782400ACEABD /* MagikPill.app */,
+				BE365BB51F09782400ACEABD /* MagikPillTests.xctest */,
+				BE365BC01F09782400ACEABD /* MagikPillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE365BA31F09782400ACEABD /* MagikPill */ = {
+			isa = PBXGroup;
+			children = (
+				BE365BA41F09782400ACEABD /* AppDelegate.swift */,
+				BE365BA61F09782400ACEABD /* ViewController.swift */,
+				BE365BA81F09782400ACEABD /* Main.storyboard */,
+				BE365BAB1F09782400ACEABD /* Assets.xcassets */,
+				BE365BAD1F09782400ACEABD /* LaunchScreen.storyboard */,
+				BE365BB01F09782400ACEABD /* Info.plist */,
+			);
+			path = MagikPill;
+			sourceTree = "<group>";
+		};
+		BE365BB81F09782400ACEABD /* MagikPillTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE365BB91F09782400ACEABD /* MagikPillTests.swift */,
+				BE365BBB1F09782400ACEABD /* Info.plist */,
+			);
+			path = MagikPillTests;
+			sourceTree = "<group>";
+		};
+		BE365BC31F09782400ACEABD /* MagikPillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE365BC41F09782400ACEABD /* MagikPillUITests.swift */,
+				BE365BC61F09782400ACEABD /* Info.plist */,
+			);
+			path = MagikPillUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE365BA01F09782400ACEABD /* MagikPill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE365BC91F09782400ACEABD /* Build configuration list for PBXNativeTarget "MagikPill" */;
+			buildPhases = (
+				BE365B9D1F09782400ACEABD /* Sources */,
+				BE365B9E1F09782400ACEABD /* Frameworks */,
+				BE365B9F1F09782400ACEABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagikPill;
+			productName = MagikPill;
+			productReference = BE365BA11F09782400ACEABD /* MagikPill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE365BB41F09782400ACEABD /* MagikPillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE365BCC1F09782400ACEABD /* Build configuration list for PBXNativeTarget "MagikPillTests" */;
+			buildPhases = (
+				BE365BB11F09782400ACEABD /* Sources */,
+				BE365BB21F09782400ACEABD /* Frameworks */,
+				BE365BB31F09782400ACEABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE365BB71F09782400ACEABD /* PBXTargetDependency */,
+			);
+			name = MagikPillTests;
+			productName = MagikPillTests;
+			productReference = BE365BB51F09782400ACEABD /* MagikPillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE365BBF1F09782400ACEABD /* MagikPillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE365BCF1F09782400ACEABD /* Build configuration list for PBXNativeTarget "MagikPillUITests" */;
+			buildPhases = (
+				BE365BBC1F09782400ACEABD /* Sources */,
+				BE365BBD1F09782400ACEABD /* Frameworks */,
+				BE365BBE1F09782400ACEABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE365BC21F09782400ACEABD /* PBXTargetDependency */,
+			);
+			name = MagikPillUITests;
+			productName = MagikPillUITests;
+			productReference = BE365BC01F09782400ACEABD /* MagikPillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE365B991F09782400ACEABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pachuca Inc.";
+				TargetAttributes = {
+					BE365BA01F09782400ACEABD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E2QK468QU7;
+						ProvisioningStyle = Automatic;
+					};
+					BE365BB41F09782400ACEABD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E2QK468QU7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE365BA01F09782400ACEABD;
+					};
+					BE365BBF1F09782400ACEABD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E2QK468QU7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE365BA01F09782400ACEABD;
+					};
+				};
+			};
+			buildConfigurationList = BE365B9C1F09782400ACEABD /* Build configuration list for PBXProject "MagikPill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE365B981F09782400ACEABD;
+			productRefGroup = BE365BA21F09782400ACEABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE365BA01F09782400ACEABD /* MagikPill */,
+				BE365BB41F09782400ACEABD /* MagikPillTests */,
+				BE365BBF1F09782400ACEABD /* MagikPillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE365B9F1F09782400ACEABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE365BAF1F09782400ACEABD /* LaunchScreen.storyboard in Resources */,
+				BE365BAC1F09782400ACEABD /* Assets.xcassets in Resources */,
+				BE365BAA1F09782400ACEABD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE365BB31F09782400ACEABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE365BBE1F09782400ACEABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE365B9D1F09782400ACEABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE365BA71F09782400ACEABD /* ViewController.swift in Sources */,
+				BE365BA51F09782400ACEABD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE365BB11F09782400ACEABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE365BBA1F09782400ACEABD /* MagikPillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE365BBC1F09782400ACEABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE365BC51F09782400ACEABD /* MagikPillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE365BB71F09782400ACEABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE365BA01F09782400ACEABD /* MagikPill */;
+			targetProxy = BE365BB61F09782400ACEABD /* PBXContainerItemProxy */;
+		};
+		BE365BC21F09782400ACEABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE365BA01F09782400ACEABD /* MagikPill */;
+			targetProxy = BE365BC11F09782400ACEABD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE365BA81F09782400ACEABD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE365BA91F09782400ACEABD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE365BAD1F09782400ACEABD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE365BAE1F09782400ACEABD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE365BC71F09782400ACEABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE365BC81F09782400ACEABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE365BCA1F09782400ACEABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E2QK468QU7;
+				INFOPLIST_FILE = MagikPill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pachucainc.MagikPill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE365BCB1F09782400ACEABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E2QK468QU7;
+				INFOPLIST_FILE = MagikPill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pachucainc.MagikPill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE365BCD1F09782400ACEABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E2QK468QU7;
+				INFOPLIST_FILE = MagikPillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pachucainc.MagikPillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagikPill.app/MagikPill";
+			};
+			name = Debug;
+		};
+		BE365BCE1F09782400ACEABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E2QK468QU7;
+				INFOPLIST_FILE = MagikPillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pachucainc.MagikPillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagikPill.app/MagikPill";
+			};
+			name = Release;
+		};
+		BE365BD01F09782400ACEABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E2QK468QU7;
+				INFOPLIST_FILE = MagikPillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pachucainc.MagikPillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MagikPill;
+			};
+			name = Debug;
+		};
+		BE365BD11F09782400ACEABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E2QK468QU7;
+				INFOPLIST_FILE = MagikPillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pachucainc.MagikPillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MagikPill;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE365B9C1F09782400ACEABD /* Build configuration list for PBXProject "MagikPill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE365BC71F09782400ACEABD /* Debug */,
+				BE365BC81F09782400ACEABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE365BC91F09782400ACEABD /* Build configuration list for PBXNativeTarget "MagikPill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE365BCA1F09782400ACEABD /* Debug */,
+				BE365BCB1F09782400ACEABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE365BCC1F09782400ACEABD /* Build configuration list for PBXNativeTarget "MagikPillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE365BCD1F09782400ACEABD /* Debug */,
+				BE365BCE1F09782400ACEABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE365BCF1F09782400ACEABD /* Build configuration list for PBXNativeTarget "MagikPillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE365BD01F09782400ACEABD /* Debug */,
+				BE365BD11F09782400ACEABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE365B991F09782400ACEABD /* Project object */;
+}
